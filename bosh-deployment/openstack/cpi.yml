@@ -73,7 +73,7 @@
     region: ((region))
     default_key_name: ((default_key_name))
     default_security_groups: ((default_security_groups))
-    human_readable_vm_names: true
+    human_readable_vm_names: false
 
 - type: replace
   path: /cloud_provider/ssh_tunnel?
